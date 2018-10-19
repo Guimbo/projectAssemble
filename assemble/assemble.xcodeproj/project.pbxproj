@@ -17,6 +17,7 @@
 		AED97B7E2179F5E800417AC9 /* assembleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B7D2179F5E800417AC9 /* assembleUITests.swift */; };
 		AED97B8C2179F7FB00417AC9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B8B2179F7FB00417AC9 /* Character.swift */; };
 		AED97B8E2179FFFF00417AC9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B8D2179FFFF00417AC9 /* Team.swift */; };
+		AED97B92217A175700417AC9 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B91217A175700417AC9 /* CharacterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		AED97B7F2179F5E800417AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AED97B8B2179F7FB00417AC9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		AED97B8D2179FFFF00417AC9 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		AED97B91217A175700417AC9 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		AED97B592179F5E700417AC9 /* assemble */ = {
 			isa = PBXGroup;
 			children = (
+				AED97B91217A175700417AC9 /* CharacterCollectionViewCell.swift */,
 				AED97B5A2179F5E700417AC9 /* AppDelegate.swift */,
 				AED97B5C2179F5E700417AC9 /* ViewController.swift */,
 				AED97B8B2179F7FB00417AC9 /* Character.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED97B92217A175700417AC9 /* CharacterCollectionViewCell.swift in Sources */,
 				AED97B632179F5E700417AC9 /* assemble.xcdatamodeld in Sources */,
 				AED97B5D2179F5E700417AC9 /* ViewController.swift in Sources */,
 				AED97B5B2179F5E700417AC9 /* AppDelegate.swift in Sources */,
