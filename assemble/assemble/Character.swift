@@ -12,19 +12,19 @@ import UIKit
 
 /// Class to define characters without methods
 class Character{
-    var id_char: Int
-    var name_char: String?
-    var description_char: String?
-    var thumbnail_char: UIImage?
+    var idChar: Int
+    var nameChar: String?
+    var descriptionChar: String?
+    var thumbnailChar: UIImage?
     
-    init(id_char: Int){
-        self.id_char = id_char
+    init(idChar: Int){
+        self.idChar = idChar
     }
 
-    convenience init(id_char: Int, name_char: String, description_char: String, thumbnail_char: UIImage){
-        self.init(id_char: id_char)
-        self.name_char = name_char
-        self.description_char = name_char
-        self.thumbnail_char = thumbnail_char
+    convenience init(idChar: Int, nameChar: String, descriptionChar: String, thumbnailChar: UIImage){
+        self.init(idChar: idChar)
+        self.nameChar = nameChar
+        self.descriptionChar = nameChar
+        self.thumbnailChar = thumbnailChar
     }
 }
