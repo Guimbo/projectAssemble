@@ -14,8 +14,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     var epicTeam = Team(idTeam: 01)
     
+    var selectedTeam = Team(idTeam: 02)
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        epicTeam.generateThunderbolts()
+        epicTeam.generateCharacters()
         return self.epicTeam.members.count
     }
     
@@ -27,6 +29,28 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let selectedCharacter = epicTeam.members[indexPath.row]
+        var pos = 0
+        
+        let contains = selectedTeam.members.contains { $0 === selectedCharacter }
+        
+        if contains{
+            for object in selectedTeam.members{
+                if object === selectedCharacter{
+                    selectedTeam.members.remove(at: pos)
+                }
+                pos = pos + 1
+                
+            }
+            
+        }else{
+            selectedTeam.members.append(epicTeam.members[indexPath.row])
+            
+        }
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

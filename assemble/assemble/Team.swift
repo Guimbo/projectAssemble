@@ -24,7 +24,7 @@ class Team{
         self.members = members
     }
     
-    func generateThunderbolts(){
+    func generateCharacters(){
         
         self.nameTeam = "Thunderbolts"
         

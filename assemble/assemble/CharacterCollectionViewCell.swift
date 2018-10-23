@@ -10,5 +10,17 @@ import UIKit
 
 class CharacterCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var characterImage: UIImageView!
+    @IBOutlet weak var lblSelected: UILabel!
     
+    override var isSelected: Bool {
+        didSet {
+            if lblSelected.text == ""{
+                lblSelected.text = "CHECK"
+            }
+            
+            else{
+                lblSelected.text = ""
+            }
+        }
+    }
 }

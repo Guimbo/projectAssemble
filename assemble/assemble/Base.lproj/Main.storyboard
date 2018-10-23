@@ -38,11 +38,19 @@
                                                     <rect key="frame" x="5" y="6" width="93" height="140"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2IP-Xq-qt6">
+                                                    <rect key="frame" x="11" y="111" width="80" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.74209415912628174" green="0.0033760152291506529" blue="0.015545657835900784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="highlightedColor" red="0.74963568650000001" green="0.0" blue="0.018118898080000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <size key="customSize" width="102" height="152"/>
                                         <connections>
                                             <outlet property="characterImage" destination="0g8-K5-j5w" id="2pm-HN-WIX"/>
+                                            <outlet property="lblSelected" destination="2IP-Xq-qt6" id="r2y-J7-irJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
