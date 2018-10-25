@@ -18,6 +18,7 @@
 		AED97B8C2179F7FB00417AC9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B8B2179F7FB00417AC9 /* Character.swift */; };
 		AED97B8E2179FFFF00417AC9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B8D2179FFFF00417AC9 /* Team.swift */; };
 		AED97B92217A175700417AC9 /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED97B91217A175700417AC9 /* CharacterCollectionViewCell.swift */; };
+		AEEB11322180BBE7002DC3B3 /* MySquadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB11312180BBE7002DC3B3 /* MySquadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AED97B8B2179F7FB00417AC9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		AED97B8D2179FFFF00417AC9 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		AED97B91217A175700417AC9 /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		AEEB11312180BBE7002DC3B3 /* MySquadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySquadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				AED97B8B2179F7FB00417AC9 /* Character.swift */,
 				AED97B8D2179FFFF00417AC9 /* Team.swift */,
 				AED97B5E2179F5E700417AC9 /* Main.storyboard */,
+				AEEB11312180BBE7002DC3B3 /* MySquadsViewController.swift */,
 				AED97B642179F5E800417AC9 /* Assets.xcassets */,
 				AED97B662179F5E800417AC9 /* LaunchScreen.storyboard */,
 				AED97B692179F5E800417AC9 /* Info.plist */,
@@ -270,6 +273,7 @@
 			files = (
 				AED97B92217A175700417AC9 /* CharacterCollectionViewCell.swift in Sources */,
 				AED97B632179F5E700417AC9 /* assemble.xcdatamodeld in Sources */,
+				AEEB11322180BBE7002DC3B3 /* MySquadsViewController.swift in Sources */,
 				AED97B5D2179F5E700417AC9 /* ViewController.swift in Sources */,
 				AED97B5B2179F5E700417AC9 /* AppDelegate.swift in Sources */,
 				AED97B8E2179FFFF00417AC9 /* Team.swift in Sources */,
