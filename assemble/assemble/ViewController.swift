@@ -51,6 +51,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        selectedTeam.nameTeam = "Civil War"
+        
+        if let goToNextScreen = segue.destination as? MySquadsViewController{
+            goToNextScreen.userTeams.append(selectedTeam)
+            
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

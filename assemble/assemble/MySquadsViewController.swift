@@ -11,19 +11,26 @@ import UIKit
 class MySquadsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableViewTeams: UITableView!
+    var userTeams = [Team]()
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return userTeams.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        
+        cell?.textLabel?.text = userTeams[indexPath.row].nameTeam
+        
+        return cell!
     }
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableViewTeams.delegate = self
+        tableViewTeams.dataSource = self
 
         // Do any additional setup after loading the view.
     }
