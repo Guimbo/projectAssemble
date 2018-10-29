@@ -8,8 +8,25 @@
 
 import UIKit
 
-class UserTeamViewController: UIViewController {
+class UserTeamViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    @IBOutlet weak var teamCollectionViewController: UICollectionView!
+    
+    @IBOutlet weak var lblTeamName: UILabel!
+    
+    var userTeam:Team
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return userTeam.members.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
